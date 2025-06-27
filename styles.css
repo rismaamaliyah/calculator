@@ -10,7 +10,7 @@ body {
 
 .calculator {
     width: 300px;
-    background-color: #333;
+    background-color: #ff8fab;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
@@ -38,8 +38,9 @@ body {
 }
 
 .current-operand {
-    color: black;
-    font-size: 2em;
+    color: #7209b7;
+    font-size: 2.5em;
+    font-weight: 700;
 }
 
 .buttons {
@@ -56,32 +57,23 @@ button {
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.2s;
+    background-color: #ffe5ec;
+    color: #7209b7;
 }
 
 button:hover {
     opacity: 0.8;
 }
 
-.number {
-    background-color: #666;
-    color: white;
+.clear {
+    color: #ff5400;
 }
 
 .operator {
-    background-color: #ff9500;
-    color: white;
+    color: #006ba6;
 }
 
-#clear-btn #backspace-btn .plus-minus {
-    background-color: #a5a5a5;
-}
-
-.equals {
-    background-color: #ff9500;
-    color: white;
-}
-
-.decimal {
-    background-color: #666;
-    color: white;
+.operator.equal {
+    background-color: #006ba6;
+    color: #ffe5ec;
 }
