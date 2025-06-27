@@ -72,7 +72,7 @@ button:hover {
     color: white;
 }
 
-.clear .backspace .plus-minus {
+#clear-btn #backspace-btn .plus-minus {
     background-color: #a5a5a5;
 }
 
